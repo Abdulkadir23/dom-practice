@@ -51,3 +51,7 @@ function multiply (num1,num2){
 }
 console.log (multiply(7,9))
 
+let salary = 500;
+let tax = .2
+let takHomeSalary = salary- (salary * tax);
+console.log('Your Take Home Salary Is ' + takHomeSalary)
